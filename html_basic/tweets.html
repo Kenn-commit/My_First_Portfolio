@@ -1,23 +1,38 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <title>My First Portfolio</title>
+    <meta charset="UTF-8">
+    <title>My Tweets</title>
   </head>
-  <body> 
-	        <h1>My Tweets Page</h1>
-    <p>Here’s one of my tweets:</p>
+  <body>
+    <header>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="tweets.html">Tweets</a></li>
+      </ul>
+    </header>
 
-    <!-- Embed a tweet -->
-    <blockquote class="twitter-tweet">
-      <p lang="en" dir="ltr">Hello World! This is my first embedded tweet.</p>
-      &mdash; Example User (@example)
-      <a href="https://twitter.com/example/status/1234567890">March 1, 2025</a>
-    </blockquote>
-    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    <main>
+      <article>
+        <h1>My Tweets Page</h1>
+        <p>Here’s one of my tweets:</p>
 
-    <!-- Link back to homepage -->
-    <p><a href="index.html">Back to homepage</a></p>
+        <!-- Embedded Tweet -->
+        <blockquote class="twitter-tweet">
+          <p lang="en" dir="ltr">Hello World! This is my first embedded tweet.</p>
+          &mdash; Example User (@example) 
+          <a href="https://twitter.com/example/status/1234567890">March 1, 2025</a>
+        </blockquote> 
+        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+      </article>
+      <aside>
+        <p>placeholder to add comment thread later</p>
+      </aside>
+    </main>
+
+    <footer>
+      <p>Made by YOUR NAME - <a href="https://github.com/Kenn-commit" target="_blank">here</a>.</p>
+    </footer>
   </body>
-
 </html>
 
